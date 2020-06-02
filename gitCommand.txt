@@ -1,0 +1,15 @@
+git --version：查看当前git的版本
+mkdir "文件夹名"  cd "文件夹名"：创建并跳转文件夹
+git -init：把这个目录变成Git可以管理的仓库
+git add：把文件添加到仓库
+git commit -m"提交时的信息"：把文件提交到仓库
+git add file1.txt file2.txt file3.txt：添加多个文件
+cat "文件名"：查看文件内容
+git status：查看仓库当前的状态
+git diff：查看当前版本与上个版本的区别
+git reset --hard HEAD^：退回到上个版本（HEAD^^：上上个版本，HEAD~100前第一百个版本）
+git reset --hard ad2df33d3473787c4322f0cbb52cca86b68ce46f（版本号前四位即可）：跳转到对应ID的版本
+git reflog：查看记录的每一次的命令
+git checkout -- "文件名"：撤销修改的文件
+git checkout - "分支名"：切换到其他分支
+git reset HEAD "文件名"：把暂存区的修改撤销掉，重新放回工作区
